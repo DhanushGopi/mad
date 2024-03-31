@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="300px"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="200px"
+            android:text="Login"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="300px"/>
+
+    </TableRow>
+  
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="300px"/>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Entee the user name"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="300px"/>
+
+    </TableRow>
+  
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="300px"/>
+
+        <Button
+            android:id="@+id/pswd"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Submit"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="300px"/>
+
+    </TableRow>
+
+</TableLayout>
